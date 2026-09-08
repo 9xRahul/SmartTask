@@ -46,7 +46,6 @@ class ConnectivityService {
     for (final result in results) {
       if (result == ConnectivityResult.mobile ||
           result == ConnectivityResult.wifi ||
-          result == ConnectivityResult.ethernet ||
           result == ConnectivityResult.vpn) {
         return true;
       }
